@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #CCA78D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circles{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15%;
+}
+
+#lines{
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    width: 15%;
+}
+
+.main{
+    height: 25rem;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    border: none;
+    height: 100%;
+    width: 50%;
+    background-color: #a07558;
+    left: 0;
+    border-radius: 3%;
+    background-image: url('../assets/rectanglev2.svg');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.drop{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+}
+
+#filePreview{
+    display: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 6%;
+    padding: 15px;
+}
+
+.right{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inptbox{
+    height: 21%;
+    width: 100%;
+    color: #CCA78D;
+    font-size: large;
+    padding: 10%;
+    border-radius: 20px;
+    background-color: #a07558;
+    border: none;
+}
+.inptbox::placeholder{
+    color: #CCA78D;
+}
+
+#statusbx{
+    background-color: rgba(160, 117, 88, 0);
+    border: 3px solid #a07558;
+    color: #a07558;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    position: relative;
+}
+
+#status{
+    position: absolute;
+    left: 9%;
+    top: 8px;
+}
+
+#statusbx p{
+    position: absolute;
+    right: 10%;
+    bottom: 8px;
+}
+
+.meter { 
+    height: 7%; 
+    width: 81%;
+    background: #a07558;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.meter::after{
+    content: '';
+    position: absolute;
+    background-color: #4D4335;
+    width: var(--metervalue);
+    height: 100%;
+}
+
+
+#submit{
+    background-color: rgba(160, 117, 88, 0);
+    border: 3px solid #a07558;
+    color: #a07558;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+}

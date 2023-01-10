@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Price.fy</title>
+</head>
+<body>
+    <img id="circles" src="assets/circles.svg" alt="circles texture">
+    <img id="lines" src="assets/lines.svg" alt="lines texture">
+    <form 
+        class="main"
+        action="https://vl-api.vercel.app/pricefy" 
+        method="post"
+        enctype="multipart/form-data"
+        onsubmit="statusDefine()"
+    >
+        <section class="left" id="left">
+            <img id="filePreview" onclick="change();">
+            <input class="drop" type="file" accept="image/JPEG" name="meuArquivo" id="meuArquivo" required onchange="showPreview(event);"></input>
+        </section>
+        <section class="right">
+            <input class="inptbox" name="title" id="title" required placeholder="Titulo da peça" onchange="statusDefine()"></input>
+            <input class="inptbox" name="price" id="price" required placeholder="Valor da peça" onchange="statusDefine()"></input>
+            <div class="inptbox" id="statusbx">
+                <p id="status">Status</p>
+                <div class="meter"></div>
+                <p id="valuetxt">0%</p>
+            </div>
+            <input class="inptbox" id="submit" type="submit" value="Baixar imagem pronta"></input>
+        </section>
+    </form>
+</body>
+<script src="js/script.js"></script>
+</html>
