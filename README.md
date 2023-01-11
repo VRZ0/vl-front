@@ -67,6 +67,6 @@ Ele tem por objetivo de simplificar e agilizar o processo de edição de imagens
 <br>
 <h3 id="licenca" style="border-bottom:3px solid #CCCEDB; padding-bottom: 15px"> 📑 Licença</h3>
 
-Este projeto esta sobe a licença  [MIT](https://github.com/tgmarinho/README-ecoleta/blob/master/LICENSE).
+Este projeto esta sobe a licença  [MIT](https://github.com/VRZ0/vl-front/blob/main/LICENSE.md).
 
 Feito com  ❤️  por Vinicius Reis 😎
