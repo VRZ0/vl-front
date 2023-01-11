@@ -9,7 +9,6 @@
 Ele tem por objetivo de simplificar e agilizar o processo de edição de imagens, que se mostra repetitivo e muitas vezes complexo para o público leigo   
 </p>
 <br>
-<br>
 <h3 id="layout" style="border-bottom:3px solid #CCCEDB; padding-bottom: 15px"> 🎨 Layout</h3>
 <p>Todo o layout/assets foram feitos inicialmente no figma  
 </p>
