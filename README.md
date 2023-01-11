@@ -1,4 +1,5 @@
 <img src="./assets/banner.png" style="border-bottom:3px solid #CCCEDB; padding-bottom: 15px">
+<p align="center">disponivel em: <a href="https://vlpricefy.vercel.app/">https://vlpricefy.vercel.app/</a></p>
 <br>
 <br>
 <p align="center">Price-fy 🪙 Concluído <p>
